@@ -17,6 +17,6 @@
 * [Behance](https://www.behance.net/ "")
 
 ## TAGS HTML
-```<H1>```
-```<P>```
+```<h1></h1>```
+```<p></p>```
 
