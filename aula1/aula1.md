@@ -1,12 +1,16 @@
-# Conteúdo da Primeira Aula
-#
-Introdução a Conexão de rede
+# Aula 1 Conteúdo
 
-## Softwares Utilizados
-#
+### Introdução a conexões HTTP
 
-* [Sublime Text 3](https://www.sublimetext.com/3 "Baixar Sublime Text 3")
-* [Slack](https://slack.com/downloads "Baixar Slack")
-* (Windows) [WAMP Server](http://www.wampserver.com/en/ "Baixar Slack")
-* (Linux) [LAMP Server](http://www.techtudo.com.br/dicas-e-tutoriais/noticia/2012/11/como-instalar-lamp-no-linux.html "Baixar LAMP Server")
-* (MAC-OS) [MAMP Server](https://www.mamp.info/en/downloads/ "Baixar MAMP Server")
+* Introdução a Conexão Protocolo HTTP
+* Comunicação cliente e servidor
+* [STATUS CODE HTTP](https://d1avok0lzls2w.cloudfront.net/img_uploads/seos-guide-to-http-status-codes.gif "")
+* [Ferramenta Chrome Dev Tools](http://wpscholar.com/content/uploads/2015/07/chrome-network-tab.gif "")
+
+## Links de Referência
+
+* [AWWWARDS](http://www.awwwards.com/ "")
+* [CSS Design Awards](http://www.cssdesignawards.com/ "")
+* [Dribble](http://dribbble.com/ "")
+* [Behance](https://www.behance.net/ "")
+
