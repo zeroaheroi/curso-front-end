@@ -4,13 +4,19 @@
 
 * Introdução a Conexão Protocolo HTTP
 * Comunicação cliente e servidor
-* [STATUS CODE HTTP](https://d1avok0lzls2w.cloudfront.net/img_uploads/seos-guide-to-http-status-codes.gif "")
+* [Status Code HTTP](https://d1avok0lzls2w.cloudfront.net/img_uploads/seos-guide-to-http-status-codes.gif "")
 * [Ferramenta Chrome Dev Tools](http://wpscholar.com/content/uploads/2015/07/chrome-network-tab.gif "")
+* Validação HTML - [W3C Validator](https://validator.w3.org/ "")
+* Gerador de Conteúdo - [Lorem Ipsum](http://br.lipsum.com/ "")
 
 ## Links de Referência
 
 * [AWWWARDS](http://www.awwwards.com/ "")
 * [CSS Design Awards](http://www.cssdesignawards.com/ "")
-* [Dribble](http://dribbble.com/ "")
+* [Dribbble](http://dribbble.com/ "")
 * [Behance](https://www.behance.net/ "")
+
+## TAGS HTML
+* <H1>
+* <P>
 
