@@ -1,4 +1,4 @@
-# Aula 2 - Conteúdo
+# Aula 3 - Conteúdo
 
 ## Tags HTML - Âncoras
 
@@ -42,37 +42,44 @@ Links internos redirecionam para outros documentos HTML *dentro da mesma estrutu
 	<li><a href="contato.html">Contato</a></li>
 </ul>
 ```
+## Tags HTML - Imagens
+Imagens são incluídas através da tag *img* e obrigatóriamente é necessário aplicar o atributo *src* (source / fonte) e o atributo *alt* requisito para melhoria da *acessibilidade* do site e para validação na [W3C](https://validator.w3.org/ "W3C Validator").
 
-## Tags HTML - Listas Ordenadas
+### Requisições de imagens externas
 ```
-<ol>
-	<li>item 1</li>
-	<li>item 2</li>
-	<li>item 3</li>
-	<li>item 4</li>
-	<li>item 5</li>
-</ol>
+<img src="http://dogstrainingconcept.com/wp-content/uploads/2013/03/treino_cao.png" alt="Imagem Cão">
 ```
 
-## Tags HTML - Aninhamento de Listas
+### Requisições de imagens internas (estrutura de pasta)
 ```
-<ul>
-	<li>
-		Item 1
-		<ul>
-			<li>Subitem 1</li>
-			<li>Subitem 2</li>
-			<li>Subitem 3</li>
-		</ul>
-	</li>
-	<li>Item 2</li>
-	<li>Item 3</li>
-</ul>
+<img src="silvio.jpg" alt="">
 ```
 
-## Configuração do Sublime Text 3 e Atalhos de Produtividade
+## Tags HTML - Combinação entre links e imagens
 
-* [Turbinando o Sublime](https://www.youtube.com/watch?v=2rrK2LiS5Eo "")
-* [7 Plugins do sublime text que você deveria conhecer](http://tableless.com.br/7-plugins-sublime-text-que-voce-deveria-conhecer/ "")
-* [Atalhos do Sublime](https://www.viget.com/articles/my-overused-sublime-text-keyboard-shortcuts "")
-* Instalação do Material Theme - [Link](https://github.com/equinusocio/material-theme "")
+```
+<a href="http://www.sbt.com.br/home/" target="_blank" title="Página do SBT">
+	<img src="silvio.jpg" alt="Imagem Silvio Santos">
+</a>
+```
+
+## Criação de Pasta de projeto - SITE
+
+```
+site/
+|   |-- home.html             # Título, Imagem e Links
+|   |-- sobre.html            # Parágrafos, Título e Links
+|   |-- fotos.html            # Galeria de Fotos
+|   |-- contato.html          # Contato e Formulários de Contato
+|   |
+|   |-- imagem_qualquer.jpg   # Imagem local para ser anexada ao projeto
+|   |-- imagem_qualquer.jpg   # Imagem local para ser anexada ao projeto
+|   |-- imagem_qualquer.jpg   # Imagem local para ser anexada ao projeto
+
+```
+
+## Referências e Materiais de Suporte
+
+* [O poder do atributo “ALT”](http://tableless.com.br/o-poder-do-atributo-alt/ "")
+* [Modelo de Acessibilidade em Governo Eletrônico](http://emag.governoeletronico.gov.br/ "")
+* [Cartilha Acessibilidade](http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.pdf "")
