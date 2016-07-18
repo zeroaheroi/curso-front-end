@@ -10,3 +10,5 @@ O desenvolvedor front-end é o profissional responsável por projetar, construir
 * (Windows) [WAMP Server](http://www.wampserver.com/en/ "Baixar Slack")
 * (Linux) [LAMP Server](http://www.techtudo.com.br/dicas-e-tutoriais/noticia/2012/11/como-instalar-lamp-no-linux.html "Baixar LAMP Server")
 * (MAC-OS) [MAMP Server](https://www.mamp.info/en/downloads/ "Baixar MAMP Server")
+
+## Referências
