@@ -3,10 +3,9 @@
 ## Teoria - Briefing
 briefing é um conjunto de informações passadas em uma reunião para o desenvolvimento de um trabalho, sendo muito utilizadas em Administração, Relações Públicas e na Publicidade. É muito importante que todas as questões sejam respondidas para que haja uma correta listagem dos objetivos a serem desenvolvidos nas futuras etapas do projeto possibilitando um melhor planejamento estratégico na comunicação da sua marca com o seu cliente.
 
-Na pasta *Material de Suporte* foi adicionado o arquivo *Modelo de Briefing* para download.
+Na pasta **Material de Suporte* foi adicionado o arquivo **Modelo de Briefing** para download.
 
 #### Referências
-
 * [A Importância do Briefing](http://www.page1.com.br/a-importancia-do-briefing/ "")
 * [Como Montar um briefing](http://marketingdrops.com.br/comunicacao/como-montar-um-briefing/ "")
 
@@ -15,7 +14,6 @@ Usabilidade é um termo usado para definir a facilidade com que as pessoas podem
 [Fonte](https://pt.wikipedia.org/wiki/Usabilidade "")
 
 #### Referências
-
 * [O que é usabilidade](http://tableless.com.br/o-que-e-usabilidade/"")
 * [Apostila Ergonomia e Usabilidade](http://www.univasf.edu.br/~jorge.cavalcanti/cap1_livro_ergonomia_usabilidade.pdf "")
 * [Principios de usabiliade na WEB](ftp://ftp.unicamp.br/pub/apoio/treinamentos/tutoriais/tut_UsabilidadeWeb.pdf "")
@@ -32,7 +30,6 @@ Algumas ferramentas úteis que facilitam o trabalho de criação de websites e a
 * [Proto.io](https://proto.io/"")
 * [POP app](https://popapp.in/"")
 
-
 ###Protótipos para web e mobile
 * [UXPin](https://www.uxpin.com/"")
 * [Axure](http://www.axure.com/"")
@@ -42,7 +39,7 @@ Algumas ferramentas úteis que facilitam o trabalho de criação de websites e a
 * [Balsamiq](https://balsamiq.com/"")
 
 ##Exercício
-Analizar o arquivo *wireframe_referencia.png* no a pasta *aula5* e desenvolver uma estrutura *HTML* a partir da referência visual:
+Analizar o arquivo **wireframe_referencia.png** no a pasta **aula5** e desenvolver uma estrutura *HTML* a partir da referência visual:
 ![Wireframe](wireframe_referencia.png "Wireframe")
 
-A Resolução é o arquivo *wireframe.html*
+A Resolução é o arquivo **wireframe.html**

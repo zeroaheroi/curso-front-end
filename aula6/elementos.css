@@ -2,9 +2,10 @@
 	width: 800px;
 	height: auto;
 	background: gray;
-	margin: 0 auto;
+	margin: 0 auto; /* Adiciona Margem ao elemento */
 	position: relative;
-	display: table;
+	display: table; 
+	/* Muda a exibição do elemento de block para table (tabela), com isso se houver filhos com propriedade float, o pai consegue calcular a altura destes elementos */
 }
 
 .vermelho,
