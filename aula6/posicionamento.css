@@ -1,0 +1,40 @@
+/*
+Bloco de anotações
+*/
+
+.ouros,
+.copas,
+.paus,
+.espada {
+	width: 200px;
+	height: 400px;
+	position: absolute;
+}
+
+.copas {
+	background: pink;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.ouros {
+	background: red;
+	top: 20px;
+	left: 20px;
+	z-index: 2;
+}
+
+.paus {
+	background: purple;
+	left: 40px;
+	top: 40px;
+	z-index: 3;
+}
+
+.espada {
+	background: black;
+	left: 60px;
+	top: 60px;
+	z-index: 4;
+}

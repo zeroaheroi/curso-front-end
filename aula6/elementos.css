@@ -1,0 +1,48 @@
+.container {
+	width: 800px;
+	height: auto;
+	background: gray;
+	margin: 0 auto;
+	position: relative;
+	display: table;
+}
+
+.vermelho,
+.amarelo,
+.roxo,
+.verde,
+.laranja,
+.azul {
+	width: 400px;
+	height: 200px;
+}
+
+.vermelho {
+	background: red;
+	float: left;
+}
+
+.amarelo {
+	background: yellow;
+	float: right;
+}
+
+.roxo {
+	background: purple;
+	float: left;
+}
+
+.verde {
+	background: green;
+	float: right;
+}
+
+.laranja {
+	background: orange;
+	float: left;
+}
+
+.azul {
+	background: blue;
+	float: right;
+}
