@@ -1,3 +1,7 @@
+body {
+	padding-top: 34px;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -7,9 +11,10 @@ nav {
 	top: 0;
 	width: 100%;
 	height: auto;
-	background: #9b59b6;
+	background: #fff;
 	display: table;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	z-index: 2;
 }
 
 .container {
@@ -31,19 +36,19 @@ nav {
 }
 
 .menu li a {
-	color: #fff;
+	color: #0071e0;;
 	text-decoration: none;
-	font-size: 16px;
-	text-transform: uppercase;
-	padding: 8px 20px;
+	font-size: 11px;
+	padding: 22px 25px;
 	display: inline-block;
-	background: #9b59b6;
 	transition: all 0.2s ease-in-out;
-	border-right: 1px solid rgba(0,0,0,.1)
+	border-right: 1px solid rgba(0,0,0,.05);
+	position: relative;
+	z-index: 2;
 }
 
 .menu li a:hover {
-	background: rgba( 0,0,0,0.1 );
+	background: rgba( 0,0,0,0.05 );
 }
 
 .menu li:last-child a {
@@ -58,6 +63,8 @@ nav {
 	display: none;
 	top: 100%;
 	width: 100%;
+	box-shadow: 0 5px 50px rgba(0,0,0,.05);
+	background-color: #eeeeee;
 }
 
 .submenu li {
@@ -67,24 +74,69 @@ nav {
 }
 
 .submenu li a {
-	background: #8e44ad;
+	background: #eeeeee;
 	width: 100%;
 	border: none;
 }
 
 .submenu li a:hover {
-	background: #794191;
+	background: rgba(0,0,0,0.5);
 }
 
 .menu > li:hover > .submenu {
 	display: table;
-	z-index: -1;
+	z-index: 1;
 }
 
+/* ===============
+Hero e seus elementos
+================== */
+.hero {
+	width: 100%;
+	height: auto;
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: right center;
+	background-color: #eeeeee;
+	display: table;
+	padding: 40px 0;
+}
 
+.boas-vindas {
+	width: 50%;
+	height: auto;
+	padding-top: 50px;
+}
 
+.boas-vindas h2 {
+	font-size: 36px;
+	font-weight: lighter;
+	color: #47525d;
+}
 
+.boas-vindas p {
+	color: #47525d;
+	line-height: 1.5em;
+}
 
+.call-to-action {
+	background: #0071e0;
+	color: #fff;
+	text-decoration: none;
+	padding: 13px 20px;
+	border-radius: 5px;
+	font-weight: 100;
+	display: inline-block;
+}
+
+.boas-vindas p:last-child {
+	font-size: 12px;
+}
+
+.boas-vindas p:last-child a {
+	color: #0071e0;
+}
 
 
 
