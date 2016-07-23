@@ -138,19 +138,21 @@ Hero e seus elementos
 	color: #0071e0;
 }
 
-.secao-galeria {
-	border-top: 1px solid #0071e0;
-	background-color: #0071e0;
+.secao-galeria,
+.mapa {
+	border-top: 1px solid #ccc;
+	background-color: #eee;
 	width: 100%;
 	height: auto;
 	display: table;
 	text-align: center;
 }
 
-.secao-galeria h2 {
+.secao-galeria h2,
+.mapa h2 {
 	font-size: 36px;
 	font-weight: lighter;
-	color: #fff;
+	color: #47525d;
 }
 
 figure {
@@ -158,9 +160,15 @@ figure {
 	height: 306px;
 	float: left;
 	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	position: relative;
 	overflow: hidden;
+	box-shadow: 0 3px 5px rgba(0,0,0,.3);
+	transition: all 0.2s ease-in-out;
+}
+
+.secao-galeria figure:nth-child(3n+1) {
+	margin-right: 0;
 }
 
 figure > a {
@@ -184,6 +192,7 @@ figure a {
 .bloco-imagem img {
 	width: 100%;
 	height: auto;
+	transition: all 0.2s ease-in-out;
 }
 
 .bloco-texto {
@@ -202,8 +211,45 @@ figure a {
 }
 
 figure:hover .bloco-texto{
-	opacity: 0.9;
+	opacity: 1;
 }
+
+figure:hover {
+	box-shadow: 0 10px 10px rgba(0,0,0,.4);
+}
+
+figure:hover .bloco-imagem img {
+	width: 105%;
+	margin: 0 auto;
+}
+
+.link-imagem {
+	background: #0071e0;
+	color: #fff;
+	text-decoration: none;
+	padding: 8px 20px;
+	border-radius: 30px;
+	font-weight: 100;
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.mapa iframe {
+	width: 100%;
+	height: 400px;
+	border: none;
+	
+
+}
+
+
+
+
+
+
+
+
 
 
 
