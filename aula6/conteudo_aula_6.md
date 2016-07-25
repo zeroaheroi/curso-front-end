@@ -77,7 +77,7 @@ seletor {
 
 ### Seletor ID 
 O seletor ID difere do seletor classe, por ser **ÚNICO**. Um seletor ID de determinado nome só pode ser aplicado a UM e somente UM elemento HTML dentro do documento.
-![Alt text](/img/highlander_there_can_be_only_one_quote.jpg)
+![Alt text](highlander_there_can_be_only_one_quote.jpg)
 
 ```
 #meu-id {
@@ -106,7 +106,7 @@ O seletor classe permite que mais vários elemetos HTML compartilhem as mesmas p
 ```
 No exemplo acima todas as **Tags HTML** com a classe **hero-titulo** compartilharão as mesmas propriedades e seus respectivos valores como **color** e **font-size**.
 
-![Alt text](/img/cute-baby-sharing-food-cat-8lo8-ytgifs-o.gif)
+![Alt text](cute-baby-sharing-food-cat-8lo8-ytgifs-o.gif)
 
 * [Fonte](http://www.maujor.com/tutorial/sintaxetut.php)
 
