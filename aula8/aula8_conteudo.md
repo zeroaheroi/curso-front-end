@@ -28,6 +28,7 @@ base/
 |        |--vendor             # Pasta para bibliotecas JS de terceiros
 |        |--plugins.js         # Arquivo para unificar plugins JS
 |        |--main.css           # Arquivo com seu código JS
+```
 
 ## Prática - Construção de Módulos:
 ### Menu e Submenu: 
