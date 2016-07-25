@@ -5,6 +5,6 @@ Altere o **z-index** para que a carta de copas fique entre **ouros** e **espadas
 
 
 ## Aula 6 - Resultado Final
-Você deverá posicionar as cartas como no exemplo abaixo sem alterar a estrutura HTML, **apenas o CSS**:
+Você deverá posicionar as cartas como no exemplo abaixo sem alterar a estrutura **HTML**, **apenas o CSS**:
 
-![Alt text](resultado.jpg)
+![Alt text](resultado-final.jpg)
