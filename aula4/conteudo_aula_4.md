@@ -137,11 +137,11 @@ site/
 
 ## Referências e Materiais de Suporte
 
-* [HTML5 - Estrutura semântica](http://tableless.com.br/html5-estrutura-semantica "")
-* [HTML5 - Referência](http://tableless.com.br/html5-estrutura-semantica "")
+* [HTML5 - Estrutura semântica](http://tableless.com.br/html5-estrutura-semantica)
+* [HTML5 - Referência](http://tableless.com.br/html5-estrutura-semantica)
 * [Cartilha de Usabilidade do Governo Federal](http://www.egov.ufsc.br/portal/sites/default/files/padroes_brasil_e-gov_-_cartilha_de_usabilidade_v12.pdf"")
-* [Site sobre CSS e Padrões Web](http://www.maujor.com/index.php "")
-* [Cartilha Acessibilidade](http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.pdf "")
-* [Abduzeedo](http://abduzeedo.com.br/ "") - contém muitas referências boas tanto para Web quanto para design gráfico e possui alguns tutoriais também.
-* [Choco la Design](http://chocoladesign.com/ "") (seção de Web Design) - ótimo site sobre design em geral. Este link vai para a seção de web design que possui artigos e sites para inspiração.
-* [One Page Love](https://onepagelove.com/ "") - este é em inglês, mas é bastante intuitivo. Ele é ótimo para se ver antes de criar landing pages (páginas de apresentação rápida de alguma proposta. Utilizadas geralmente para pré-lançamento ou campanha de marketing digital) e hotsites.
+* [Site sobre CSS e Padrões Web](http://www.maujor.com/index.php)
+* [Cartilha Acessibilidade](http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.pdf)
+* [Abduzeedo](http://abduzeedo.com.br/) - contém muitas referências boas tanto para Web quanto para design gráfico e possui alguns tutoriais também.
+* [Choco la Design](http://chocoladesign.com/) (seção de Web Design) - ótimo site sobre design em geral. Este link vai para a seção de web design que possui artigos e sites para inspiração.
+* [One Page Love](https://onepagelove.com/) - este é em inglês, mas é bastante intuitivo. Ele é ótimo para se ver antes de criar landing pages (páginas de apresentação rápida de alguma proposta. Utilizadas geralmente para pré-lançamento ou campanha de marketing digital) e hotsites.

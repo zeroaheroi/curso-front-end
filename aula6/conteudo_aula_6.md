@@ -3,7 +3,7 @@
 ## Teoria - Introdução ao CSS Cascating Style Sheet
 Cascading Style Sheets (CSS) é uma linguagem de folhas de estilo utilizada para definir a apresentação de documentos escritos em uma linguagem de marcação, como HTML ou XML.
 
-* [Fonte](https://pt.wikipedia.org/wiki/Cascading_Style_Sheets "")
+* [Fonte](https://pt.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ###Incorporação de estilo interno (em head ou body):
 ```
@@ -61,4 +61,59 @@ h1 {
 }
 ```
 
-###Conteúdo pendente....
+## Teoria - Estrutura CSS
+**Seletor:** genericamente, é o elemento HTML identificado por sua tag, ou por uma **classe**, ou por uma **ID**, ou etc., e para o qual a regra será válida (por exemplo: **<p>**, **<h1>**, **<form>**, **.minha-classe**, etc...);
+
+**Propriedade:** é o atributo do elemento HTML ao qual será aplicada a regra (por exemplo: **font**, **color**, **background**, etc...).
+
+**Valor:** é a característica específica a ser assumida pela propriedade (por exemplo: letra tipo arial, cor azul, fundo verde, etc...)
+
+```
+seletor { 
+	propriedade: valor; 
+}	
+```
+* [Fonte](http://www.maujor.com/tutorial/sintaxetut.php)
+
+### Seletor ID 
+O seletor ID difere do seletor classe, por ser **ÚNICO**. Um seletor ID de determinado nome só pode ser aplicado a UM e somente UM elemento HTML dentro do documento.
+![Alt text](/img/highlander_there_can_be_only_one_quote.jpg)
+
+```
+#meu-id {
+	propriedade: valor;
+}
+```
+* [Fonte](http://www.maujor.com/tutorial/sintaxetut.php)
+
+### Seletor Classe 
+O seletor classe permite que mais vários elemetos HTML compartilhem as mesmas propriedades.
+**HTML**
+```
+<h2 class="hero-titulo"></h2>
+...
+<h3 class="hero-titulo"></h3>
+...
+<p class="hero-titulo"></p>
+```
+
+**CSS**
+```
+.hero-titulo { 
+	color: #000;
+	font-size: 30px;
+} 
+```
+No exemplo acima todas as **Tags HTML** com a classe **hero-titulo** compartilharão as mesmas propriedades e seus respectivos valores como **color** e **font-size**.
+
+![Alt text](/img/cute-baby-sharing-food-cat-8lo8-ytgifs-o.gif)
+
+* [Fonte](http://www.maujor.com/tutorial/sintaxetut.php)
+
+
+
+
+
+
+
+

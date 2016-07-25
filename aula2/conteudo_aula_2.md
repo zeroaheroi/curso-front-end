@@ -58,7 +58,7 @@
 
 ## Configuração do Sublime Text 3 e Atalhos de Produtividade
 
-* [Turbinando o Sublime](https://www.youtube.com/watch?v=2rrK2LiS5Eo "")
-* [7 Plugins do sublime text que você deveria conhecer](http://tableless.com.br/7-plugins-sublime-text-que-voce-deveria-conhecer/ "")
-* [Atalhos do Sublime](https://www.viget.com/articles/my-overused-sublime-text-keyboard-shortcuts "")
-* Instalação do Material Theme - [Link](https://github.com/equinusocio/material-theme "")
+* [Turbinando o Sublime](https://www.youtube.com/watch?v=2rrK2LiS5Eo)
+* [7 Plugins do sublime text que você deveria conhecer](http://tableless.com.br/7-plugins-sublime-text-que-voce-deveria-conhecer/)
+* [Atalhos do Sublime](https://www.viget.com/articles/my-overused-sublime-text-keyboard-shortcuts)
+* Instalação do Material Theme - [Link](https://github.com/equinusocio/material-theme)
