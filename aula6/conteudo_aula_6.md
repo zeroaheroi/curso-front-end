@@ -62,7 +62,7 @@ h1 {
 ```
 
 ## Teoria - Estrutura CSS
-**Seletor:** genericamente, é o elemento HTML identificado por sua tag, ou por uma **classe**, ou por uma **ID**, ou etc., e para o qual a regra será válida (por exemplo: **<p>**, **<h1>**, **<form>**, **.minha-classe**, etc...);
+**Seletor:** genericamente, é o elemento HTML identificado por sua tag, ou por uma **classe**, ou por uma **ID**, ou etc., e para o qual a regra será válida, por exemplo: **<p>**, **<h1>**, **<form>**, **.minha-classe**, etc...;
 
 **Propriedade:** é o atributo do elemento HTML ao qual será aplicada a regra (por exemplo: **font**, **color**, **background**, etc...).
 
@@ -104,7 +104,7 @@ O seletor classe permite que mais vários elemetos HTML compartilhem as mesmas p
 	font-size: 30px;
 } 
 ```
-No exemplo acima todas as **Tags HTML** com a classe **hero-titulo** compartilharão as mesmas propriedades e seus respectivos valores como **color** e **font-size**.
+No exemplo acima todas as **Tags HTML** com a classe **hero-titulo** compartilham as mesmas propriedades e seus respectivos valores como **color** e **font-size**.
 
 ![Alt text](cute-baby-sharing-food-cat-8lo8-ytgifs-o.gif)
 
