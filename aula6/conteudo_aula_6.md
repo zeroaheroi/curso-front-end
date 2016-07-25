@@ -62,7 +62,15 @@ h1 {
 ```
 
 ## Teoria - Estrutura CSS
-**Seletor:** genericamente, é o elemento HTML identificado por sua tag, ou por uma **classe**, ou por uma **ID**, ou etc., e para o qual a regra será válida, por exemplo: **<p>**, **<h1>**, **<form>**, **.minha-classe**, etc...;
+**Seletor:** genericamente, é o elemento HTML identificado por sua tag, ou por uma **classe**, ou por uma **ID**, ou etc., e para o qual a regra será válida, por exemplo:
+```
+p
+h1
+form
+.minha-classe
+#meu-id
+```
+
 
 **Propriedade:** é o atributo do elemento HTML ao qual será aplicada a regra (por exemplo: **font**, **color**, **background**, etc...).
 
