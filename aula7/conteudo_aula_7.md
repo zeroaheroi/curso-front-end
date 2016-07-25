@@ -90,15 +90,15 @@ seletor2 {
 **clear**:
 Elementos que estiverem **flutuando** se encaixarão ao seu redor. Para eveitar isso, utilize a propriedade **clear**, que define em qual dos lados um elemento **não será permitido** flutuar:
 ```
-div {
+seletor {
     clear: left;
 }
 
-div2 {
+seletor2 {
     clear: right;
 }
 
-div2 {
+seletor3 {
     clear: both;
 }
 ```
