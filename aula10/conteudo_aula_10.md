@@ -15,5 +15,5 @@ A sigla **BEM significa block, element, modifier** e segue essas propriedades pa
 A estrutura é simples:
 .elementopai, .elementopai__filho, .elementopai__filho- -primeiro
 
-* [Artigo](http://tableless.com.br/bem-um-novo-metodo-para-seu-css/)
-* [Artigo](https://medium.com/@wilfernandesjr/da-necessidade-de-um-css-do-bem-7332a10c3f8d#.o1nqo7s6r)
+* [Artigo I](http://tableless.com.br/bem-um-novo-metodo-para-seu-css/)
+* [Artigo II](https://medium.com/@wilfernandesjr/da-necessidade-de-um-css-do-bem-7332a10c3f8d#.o1nqo7s6r)
