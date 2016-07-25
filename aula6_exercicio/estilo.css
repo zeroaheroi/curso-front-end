@@ -1,0 +1,34 @@
+body {
+	margin: 0
+}
+
+.copas,
+.ouros,
+.espadas,
+.paus {
+	position: absolute;
+}
+
+.copas {
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+
+.ouros {
+	left: 50px;
+	top: 50px;
+	z-index: 0;
+}
+
+.espadas {
+	left: 100px;
+	top: 100px;
+	z-index: 0;
+}
+
+.paus {
+	left: 150px;
+	top: 150px;
+	z-index: 0;
+}
