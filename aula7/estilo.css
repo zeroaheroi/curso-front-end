@@ -3,7 +3,7 @@
 }
 
 body {
-	margin:0;
+	margin: 10px;
 	font-family: sans-serif; 
 }
 
@@ -17,9 +17,18 @@ header {
 	width: 100%;
 	height: auto;
 	background: #E2E2E2;
-	padding: 10px;
+	padding: 15px;
 	border-radius: 10px;
 	margin-bottom: 20px;
+}
+
+.logo {
+	display: inline-block;
+	background-color: #fff;
+	color: #000;
+	text-decoration: none;
+	padding: 20px 25px;
+	border-radius: 10px;
 }
 
 nav {
@@ -56,7 +65,7 @@ nav ul li a:hover {
 	height: auto;
 	background: #E2E2E2;
 	border-radius: 10px;
-	padding: 10px;
+	padding: 20px;
 	margin-bottom: 20px;
 	display: table;
 }
