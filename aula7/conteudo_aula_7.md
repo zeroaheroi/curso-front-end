@@ -51,8 +51,6 @@ seletor {
 }
 ```
 
-![Alt text](float.png)
-
 ### Teoria - Propriedade box-sizing
 Por padrão, todos os elementos HTML têm o valor **box-sizing: content-box** o que indica que o tamanho dele é definido pelo seu conteúdo apenas. Trocando o valor para **box-sizing: border-box** o tamanho agora levará em conta até a borda -- ou seja, o width será a soma do conteúdo com a borda e o padding.
 
