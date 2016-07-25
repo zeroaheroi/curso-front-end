@@ -118,10 +118,8 @@ No exemplo acima todas as **Tags HTML** com a classe **hero-titulo** compartilha
 
 * [Fonte](http://www.maujor.com/tutorial/sintaxetut.php)
 
-
-
-
-
-
+## Para Estudar Mais
+* [Site sobre CSS e Padrões Web](http://www.maujor.com/index.php)
+* [11 Dicas para trabalhar com CSS](http://www.infowester.com/dicascss.php)
 
 
