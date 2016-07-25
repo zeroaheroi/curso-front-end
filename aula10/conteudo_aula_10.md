@@ -17,3 +17,7 @@ A estrutura é simples:
 
 * [Artigo I](http://tableless.com.br/bem-um-novo-metodo-para-seu-css/)
 * [Artigo II](https://medium.com/@wilfernandesjr/da-necessidade-de-um-css-do-bem-7332a10c3f8d#.o1nqo7s6r)
+
+## O Estrutura do Projeto:
+* HTML5 Boilerplate - Estrutura de pastas e arquivos
+* Metodologia BEM CSS para escrita de classes HTML e CSS.
