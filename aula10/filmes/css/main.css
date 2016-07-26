@@ -208,8 +208,56 @@ body {
     padding-top: 3%;
 }
 
+.catalogo-filmes-lista-item {
+    float: left;
+    width: 293px;
+    height: auto;
+    display: table;
+    background-color: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+}
 
+.filme-poster {
+    margin: 0;
+    width: inherit;
+    height: 434px;
+    overflow: hidden;
+    position: relative;
+}
 
+.filme-poster img {
+    width: 100%;
+    height: auto;
+}
+
+.filme-poster-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 1;
+    top: 0;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.filme-poster-info h3 { 
+    color: #e4bb23;
+    font-size: 3em;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.filme-poster-link {
+    font-size: 8em;
+    color: #fff;
+}
+
+.filme-poster-link:hover {
+    color: #e4bb23;
+}
 
 
 
