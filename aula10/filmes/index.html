@@ -9,7 +9,6 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -35,7 +34,7 @@
         <div class="container">
            <div class="hero-conteudo">
                <h2 class="hero-titulo">
-                   Mad Max - Estrada da Fúria
+                   Mad Max: Estrada da Fúria
                </h2>
                <p class="hero-genero">
                    <a href="#" class="hero-genero-item">Aventura</a>
@@ -43,7 +42,7 @@
                    <a href="#" class="hero-genero-item">Terror</a>
                </p>
 
-               <a href="#" class="hero-botao">Assitir Trailer</a>
+               <a href="#" class="hero-botao">Assitir Trailer <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
 
                <div class="hero-informacao">
                    <p>Nos Cinemas</p>
@@ -53,12 +52,41 @@
         </div>
     </header>
 
+    <section class="catalogo">
+      <nav class="catalogo-menu">
+        <ul class="catalogo-menu-lista">
+          <li class="catalogo-menu-lista-item"><a href="#">Nos Cinemas</a></li>
+          <li class="catalogo-menu-lista-item"><a href="#">Em breve</a></li>
+          <li class="catalogo-menu-lista-item"><a href="#">Bilheteria</a></li>
+          <li class="catalogo-menu-lista-item"><a href="#">Séries</a></li>
+          <li class="catalogo-menu-lista-item"><a href="#">Trailers</a></li>          
+        </ul>        
+      </nav>
 
-
-
-
-
-
+      <div class="container">
+        <ul class="catalogo-filmes-lista">
+          <li class="catalogo-filmes-lista-item">
+            <figure class="filme-poster">
+              <img src="img/poster-batman-superman.jpg" alt="">
+              <div class="filme-poster-info">
+                <h3>Batman VS Superman</h3>
+                <a href="#" class="filme-poster-link"> Assistir Trailer</a>
+              </div>
+            </figure>
+            <div class="filme-sinopse">
+              <h3 class="filme-sinopse-titulo">Batman VS Superman</h3>
+              <p class="sinopse-genero">
+                   <a href="#" class="sinopse-genero-item">Aventura</a>
+                   <a href="#" class="sinopse-genero-item">SCI-FI</a>
+                   <a href="#" class="sinopse-genero-item">Terror</a>
+               </p>
+               <p class="filme-nota">7.0</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </section>
 
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
