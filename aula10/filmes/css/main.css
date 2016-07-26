@@ -235,11 +235,19 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background-color: rgba(0,0,0,.8);
     z-index: 1;
     top: 0;
-    padding: 50px 20px;
+    padding: 80px 20px;
     text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+.catalogo-filmes-lista-item:hover  .filme-poster-info {
+    opacity: 1;
+    visibility: visible;
 }
 
 .filme-poster-info h3 { 
@@ -253,14 +261,82 @@ body {
 .filme-poster-link {
     font-size: 8em;
     color: #fff;
+    transition: all 0.2s ease-in-out;
 }
 
 .filme-poster-link:hover {
     color: #e4bb23;
 }
 
+.filme-sinopse {
+    width: 100%;
+    padding: 20px 15px;
+    position: relative;
+}
 
+.filme-sinopse-titulo {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    margin: 0;
+}
 
+.sinopse-genero {
+    margin: 10px 0;
+}
+
+.sinopse-genero-item {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #e4bb23;
+}
+
+.sinopse-genero-item:hover {
+    text-decoration: underline;
+}
+
+.filme-nota {
+    font-size: 2.5em;
+    margin: 15px 0 0 0;
+    line-height: 0;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.filme-nota i {
+    color: #ccc;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.filme-nota i:hover {
+    color: #e74c3c;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid #e4bb23;
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: -15px;
+  right: -25px;
+}
+
+.fa-plus {
+    position: absolute;
+    bottom: 4px;
+    font-size: 1.6em;
+    right: 7px;
+    z-index: 1;
+    color: #fff;
+}
 
 
 
