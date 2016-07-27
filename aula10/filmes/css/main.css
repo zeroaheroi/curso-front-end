@@ -382,8 +382,32 @@ body {
     color: #bababa;
 }
 
+.rodape-imagem {
+    float: left;
+}
 
+.rodape-lista {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    width: auto;
+    display: table;
+}
 
+.rodape-lista-item {
+    float: left;
+    margin-right: 50px;
+}
+
+.rodape-lista-item:last-child {
+    margin-right: 0;
+}
+
+.rodape-lista-item a {
+    font-size: 3em;
+    color: #bababa;
+    text-decoration: none;
+}
 
 
 
