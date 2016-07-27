@@ -407,6 +407,7 @@ body {
     font-size: 3em;
     color: #bababa;
     text-decoration: none;
+    transition: all .2s ease-in-out;
 }
 
 .icone-twitter a:hover {
@@ -415,6 +416,10 @@ body {
 
 .icone-facebook a:hover {
     color: #3b5998;
+}
+
+.icone-instagram a:hover {
+    color: #e95950;
 }
 
 
