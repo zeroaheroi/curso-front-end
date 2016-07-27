@@ -205,7 +205,7 @@ body {
 .catalogo-filmes-lista {
     width: 100%;
     border: none;
-    padding-top: 3%;
+    padding: 3% 20px;
 }
 
 .catalogo-filmes-lista-item {
@@ -216,6 +216,13 @@ body {
     background-color: #fff;
     border-radius: 2px;
     overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+.catalogo-filmes-lista-item:nth-child(3n) {
+    margin-right: 0;
 }
 
 .filme-poster {
@@ -227,8 +234,9 @@ body {
 }
 
 .filme-poster img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 105%;
+    margin: 0 auto;
 }
 
 .filme-poster-info {
@@ -310,7 +318,7 @@ body {
 .filme-nota i {
     color: #ccc;
     cursor: pointer;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 .filme-nota i:hover {
@@ -338,6 +346,41 @@ body {
     color: #fff;
 }
 
+.carregar-mais {
+    width: auto;
+    height: auto;
+    color: #fff;
+    background-color: #e4bb23;
+    font-size: 3em;
+    padding: 20px;
+    border-radius: 100%;
+    margin: 0 auto 3%;
+    display: table;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.carregar-mais:hover {
+    background-color: #bc9a1d;
+}
+
+.carregar-mais i {
+    transform: rotate(0deg);
+    transition: all 1s ease-in-out;
+} 
+
+.carregar-mais:hover i {
+    transform: rotate(720deg);
+}
+
+.rodape {
+    width: 100%;
+    height: auto;
+    display: table;
+    background-color: #fff;
+    padding: 40px 0;
+    color: #bababa;
+}
 
 
 
