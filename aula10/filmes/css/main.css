@@ -409,6 +409,18 @@ body {
     text-decoration: none;
 }
 
+.icone-twitter a:hover {
+    color: #55acee;
+}
+
+.icone-facebook a:hover {
+    color: #3b5998;
+}
+
+
+
+
+
 
 
 
