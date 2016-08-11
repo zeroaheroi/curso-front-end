@@ -21,17 +21,28 @@
 		z-index: 99;
 		background-color: #fff;
 		border-bottom: 1px solid #ccc;
-		box-shadow: 0 2px 5px rgba(0,0,0,.5)
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 	}
 
 	.hero-logo {
 		height: 40px;
-		margin: 5px;
+		margin: 10px;
 	}
 
 	.hero-logo img {
-		height: 100%;
 		width: auto;
+		height: 100%;
+	}
+
+	.hamburger {
+		visibility: visible;
+		display: table;
+		font-size: 3em;
+		padding: 13px 0;
+		background-color: transparent;
+		border: none;
+		float: right;
+		margin-right: 20px;
 	}
 
 	.hero-lista {
@@ -40,7 +51,6 @@
 		background-color: #e4bb23;
 		margin-bottom: -3px;
 		display: none;
-		visibility: hidden;
 	}
 
 	.hero-lista-item {
@@ -54,37 +64,26 @@
 		color: #333;
 		padding: 10px 20px;
 		display: block;
-		border-bottom: 1px solid rgba(0,0,0,.1);
+		border-bottom: 1px solid rgba(0, 0, 0, .1);
 	}
 
 	.hero-lista-item a:hover {
-		background-color: rgba(0,0,0,.1);
+		background-color: rgba(0, 0, 0, 0.1);
 		color: #fff;
 	}
 
 	.hero-usuario {
 		display: none;
-		visibility: hidden;
 	}
 
 	.hero-conteudo {
 		width: 100%;
+		height: auto;
 		padding-top: 30%;
 	}
 
 	.hero-titulo {
-		font-size: 3em;
-
-	}
-
-	.hero-genero-item { 
-		display: inline-block;
-	    padding: 5px 10px;
-	    color: #000;
-	    font-size: 1em;
-	    background-color: #e4bb23;
-	    border-radius: 5px;
-	    margin-right: 5px;
+		font-size: 4em;
 	}
 
 	.hero-botao {
@@ -96,14 +95,23 @@
 	}
 
 	.hero-botao:hover {
-		background-color: #2980b9;
-	}	
+		background-color: #2980b6;
+		margin-top: calc(30% + 3px);
+	}
 
 	.hero-informacao {
 		text-align: center;
 	}
 
-	.catalogo-menu,
+	.catalogo-menu {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		border-radius: 0;
+		background-color: transparent;
+
+	}
+
 	.catalogo-menu-lista {
 		width: 100%;
 		margin: 0;
@@ -116,128 +124,87 @@
 		width: 50%;
 		height: auto;
 		margin-right: 0;
+		text-align: center;
 	}
 
 	.catalogo-menu-lista-item:last-child {
-		visibility: hidden;
 		display: none;
 	}
 
 	.catalogo-menu-lista-item a {
-	    color: #fff;
-	    width: 100%;
-	    height: 100%;
-	    display: block;
-	    padding: 10px;
-	    border-bottom: 1px solid rgba(0,0,0,.1);
-	    border-right: 1px solid rgba(0,0,0,.1);
+		color: #fff;
+		width: 100%;
+		height: 100%;
+		padding: 10px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		border-right: 1px solid rgba(0, 0, 0, 0.1);	
 	}
 
 	.catalogo-menu-lista-item a:hover {
-		background-color: rgba(0,0,0,.1);
+		background-color: rgba(0, 0, 0, 0.1);
 		box-shadow: none;
 	}
 
 	.catalogo-filmes-lista {
-	    padding: 5% 0;
+		padding: 5% 0;
 	}
 
-	.catalogo-filmes-lista-item { 
+	.catalogo-filmes-lista-item {
 		width: 47%;
 		margin-right: 0;
-		overflow: hidden;
 	}
 
 	.catalogo-filmes-lista-item:nth-child(even) {
 		float: right;
 	}
 
-	.filme-poster { 
-		height: auto;
-		width: 100%;
-		overflow: hidden;
-	}
-
-	.filme-poster img {
-	    width: auto;
-	    height: 245px;
-	    margin: 0 auto;
-	}
-
 	.filme-poster-info {
 		padding: 5px;
 	}
 
-	.filme-poster-info h3 { 
-		font-size: 2em;
+	.filme-poster-link {
+		font-size: 5em;
 	}
 
-	.filme-poster-link { 
-		font-size: 3em;
-	}
-
-	.filme-sinopse { 
-		padding: 5px;
-	}
-
-	.filme-sinopse-titulo { 
+	.filme-sinopse-titulo {
 		letter-spacing: 0;
 		height: 38px;
 	}
 
-	.sinopse-genero { 
-		display: none;
+	.sinopse-genero {
+		height: 30px;
 	}
 
 	.carregar-mais {
 		font-size: 2em;
-		padding: 15px;
+		padding: 16px 18px;
 	}
 
 	.rodape {
 		padding: 20px 0;
-		text-align: center;
 	}
 
 	.rodape-imagem {
 		position: relative;
-		display: table;
-		margin: 0 auto 20px;
+		margin: 0 auto;
 	}
 
 	.rodape-lista {
 		display: table;
+		margin: 20px auto;
 	}
 
 	.copyright {
 		position: relative;
 		display: table;
-		margin: 20px auto;
+		margin: 0 auto;
 	}
+} /*  Fim da Media Query */
 
 
-
-}/* Fim da regra */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Segunda regra na mesma folha de estilo*/
+@media screen and (max-width: 321px) {
+	.hero-menu {
+		background-color: #ff0000;
+	}
+}

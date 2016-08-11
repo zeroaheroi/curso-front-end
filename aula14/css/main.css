@@ -1,0 +1,8 @@
+.img-thumbnail {
+	width: 100%;
+	height: auto;
+}
+
+.galeria-fotos .col-md-4 {
+	margin-bottom: 20px;
+}

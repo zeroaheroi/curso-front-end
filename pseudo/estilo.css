@@ -1,0 +1,24 @@
+.teste {
+	width: 200px;
+	height: 200px;
+	background-color: #ff0000;
+	position: relative;
+}
+
+.teste:after {
+	background-color: #00ff00;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	content: "";
+	left: 100%;
+}
+
+.teste:before {
+	background-color: #0000ff;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	content: "";
+	left: 200%;
+}

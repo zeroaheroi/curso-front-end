@@ -7,6 +7,7 @@
 
 body {
     font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -21,19 +22,31 @@ body {
     width: 100%;
     height: 100vh;
     display: table;
-    background-image: url(../img/capa-madmax2.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     padding: 20px;
+    background-image: url(../img/capa-madmax2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
+
+.hero:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,0.65) 100%);
+    content: "";
+    top: 0;
+    left: 0;
+}       
 
 .hero-menu {
     width: 100%;
     height: auto;
     display: table;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-logo {
@@ -43,13 +56,18 @@ body {
     height: auto;
 }
 
+.hamburger {
+    visibility: hidden;
+    display: none;
+}
+
 .hero-lista {
     margin: 0 auto;
     padding: 0;
+    width: auto;
     list-style: none;
     display: inline-block;
-    width: auto;
-    margin-top: 40px;
+    margin-top: 45px;
 }
 
 .hero-lista-item {
@@ -57,13 +75,16 @@ body {
     margin-right: 50px;
 }
 
+.hero-lista-item:last-child {
+    margin-right: 0;
+}
+
 .hero-lista-item a,
 .catalogo-menu-lista-item a {
     text-decoration: none;
     font-size: 1.2em;
-    text-transform: uppercase;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     transition: all 0.2s ease-in-out;
 }
 
@@ -72,13 +93,13 @@ body {
 }
 
 .hero-usuario {
-    float: right;
     width: 40px;
     height: 40px;
-    border-radius: 100%;
+    float: right;
     overflow: hidden;
-    margin-top: 30px;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+    border-radius: 100%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 35px;
 }
 
 .hero-usuario img {
@@ -88,24 +109,26 @@ body {
 
 .hero-conteudo {
     width: 70%;
+    height: auto;
     text-align: left;
     display: table;
     padding-top: 10%;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-titulo {
-    font-size: 6.5em;
     text-transform: uppercase;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 6.5em;
     font-weight: 700;
-    margin: 0;
+    color: #fff;
     line-height: 1em;
+    margin: 0;
 }
 
 .hero-genero {
     margin: 10px 0 40px;
-    font-size: 12px;
+    font-size: 1.2em;
 }
 
 .hero-genero-item {
@@ -122,19 +145,16 @@ body {
 }
 
 .hero-botao {
-    display: inline-block;
-    padding: 15px 50px 15px 40px;
+    text-decoration: none;
     color: #000;
     font-size: 1.6em;
     text-decoration: none;
     background-color: #e4bb23;
-    border-radius: 40px;
+    padding: 15px 50px 15px 40px;
+    border-radius: 50px;
     position: relative;
+    display: inline-block;
     transition: all 0.2s ease-in-out;
-}
-
-.hero-botao:hover {
-    background-color: #bc9a1d;
 }
 
 .hero-botao i {
@@ -144,14 +164,18 @@ body {
     top: 10px;
 }
 
+.hero-botao:hover {
+    background-color: #bc9a1b;
+}
+
 .hero-informacao {
-    padding-top: 10%;
     font-size: 1.4em;
     color: #fff;
+    margin-top: 10%;
 }
 
 .hero-informacao p:last-child {
-    color: #bc9a1d;
+    color: #bc9a1b;
 }
 
 .catalogo {
@@ -165,9 +189,9 @@ body {
 .catalogo-menu {
     width: 960px;
     height: auto;
-    margin: -30px auto 0;
+    margin: -30px auto 0px auto;
     display: table;
-    border-radius: 5px 5px 0 0;
+    border-radius: 7px;
     background-color: #f2f2f2;
     position: relative;
     z-index: 1;
@@ -186,6 +210,7 @@ body {
 .catalogo-menu-lista-item {
     float: left;
     margin-right: 40px;
+    text-transform: uppercase;
 }
 
 .catalogo-menu-lista-item:last-child {
@@ -218,7 +243,7 @@ body {
     overflow: hidden;
     margin-right: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .catalogo-filmes-lista-item:nth-child(3n) {
@@ -227,15 +252,15 @@ body {
 
 .filme-poster {
     margin: 0;
-    width: inherit;
-    height: 434px;
+    width: 100%;
+    height: auto;
     overflow: hidden;
     position: relative;
 }
 
 .filme-poster img {
-    width: auto;
-    height: 105%;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -243,24 +268,24 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 1;
     top: 0;
-    padding: 80px 20px;
+    padding: 90px 20px;
     text-align: center;
     opacity: 0;
     visibility: hidden;
     transition: all 0.2s ease-in-out;
 }
 
-.catalogo-filmes-lista-item:hover  .filme-poster-info {
+.catalogo-filmes-lista-item:hover .filme-poster-info {
     opacity: 1;
     visibility: visible;
 }
 
-.filme-poster-info h3 { 
+.filme-poster-info h3 {
     color: #e4bb23;
-    font-size: 3em;
+    font-size: 2em;
     line-height: 1em;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -286,7 +311,6 @@ body {
     font-size: 1.6em;
     text-transform: uppercase;
     font-weight: normal;
-    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     margin: 0;
 }
@@ -299,7 +323,6 @@ body {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
     color: #e4bb23;
 }
 
@@ -312,7 +335,6 @@ body {
     margin: 15px 0 0 0;
     line-height: 0;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .filme-nota i {
@@ -326,15 +348,15 @@ body {
 }
 
 .arrow-down {
-  width: 0; 
-  height: 0; 
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-  border-top: 40px solid #e4bb23;
-  transform: rotate(-45deg);
-  position: absolute;
-  bottom: -15px;
-  right: -25px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid #e4bb23;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: -15px;
+    right: -25px;
 }
 
 .fa-plus {
@@ -347,12 +369,12 @@ body {
 }
 
 .carregar-mais {
-    width: auto;
-    height: auto;
+    width: 40px;
+    height: 40px;
     color: #fff;
     background-color: #e4bb23;
     font-size: 3em;
-    padding: 20px;
+    padding: 20px 23px;
     border-radius: 100%;
     margin: 0 auto 3%;
     display: table;
@@ -410,7 +432,7 @@ body {
     font-size: 3em;
     color: #bababa;
     text-decoration: none;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .icone-twitter a:hover {
@@ -433,8 +455,6 @@ body {
     margin-top: 10px;
 }
 
-
-
-
-
-
+.exibe-menu {
+    display: table;
+}
